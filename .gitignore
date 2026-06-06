@@ -12,3 +12,14 @@ frontend/node_modules/
 # Editor
 .vscode/
 .DS_Store
+# Added ignores to avoid committing venv and node_modules
+.venv/
+venv/
+backend/.venv*
+backend/.venv*/
+frontend/node_modules/
+**/node_modules/
+*.pyc
+__pycache__/
+.env
+.venv*/
